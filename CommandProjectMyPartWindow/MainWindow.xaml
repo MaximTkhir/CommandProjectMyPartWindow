@@ -1,0 +1,12 @@
+﻿<Window x:Class="CommandProjectMyPartWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="EMIAS" Height="300" Width="400">
+    <Grid Background="WhiteSmoke">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="EMIAS" FontSize="32" Foreground="DarkBlue" Margin="0,0,0,20" HorizontalAlignment="Center"/>
+            <Button Content="Я пациент" Width="200" Height="40" Margin="0,10" Click="PatientButton_Click"/>
+            <Button Content="Я врач" Width="200" Height="40" Margin="0,10" Click="DoctorButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
